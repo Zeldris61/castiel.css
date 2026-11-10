@@ -1,0 +1,53 @@
+/* Castiel Temalı Lioden Main CSS */
+
+/* Genel Sayfa ve Arka Plan */
+body {
+    background-color: #121417 !important; /* Derin gece mavisi/siyah tonu */
+    color: #c5cbd3 !important; /* Okunabilir açık gri metin */
+    font-family: "Lucida Sans", Arial, sans-serif;
+}
+
+/* Ana Konteynerler ve Mağara Kutuları */
+.container, #main {
+    background-color: #1a1e24 !important;
+    border: 1px solid #323b48 !important;
+    box-shadow: 0 0 10px rgba(0, 120, 215, 0.2); /* Hafif melek mavisi parlama efekti */
+}
+
+/* Başlıklar (H1, H2, H3 vb.) - Trenchcoat Beji ve Melek Mavisi */
+h1, h2, h3, .panel-heading {
+    color: #8ab4f8 !important; /* Parlak melek mavisi */
+    border-bottom: 1px solid #3b4c66 !important;
+}
+
+/* Bağlantılar (Linkler) */
+a {
+    color: #92b6ff !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff !important;
+    text-shadow: 0 0 5px #4a88e8;
+}
+
+/* Tablolar ve Bilgi Kutuları */
+.table-bordered, th, td {
+    border-color: #2c3542 !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #1f252f !important;
+}
+
+/* Butonlar */
+.btn-default, .btn-primary {
+    background-color: #2b3648 !important;
+    border-color: #43546e !important;
+    color: #e2e8f0 !important;
+}
+
+.btn-default:hover, .btn-primary:hover {
+    background-color: #3b4c66 !important;
+    border-color: #5a7398 !important;
+}
